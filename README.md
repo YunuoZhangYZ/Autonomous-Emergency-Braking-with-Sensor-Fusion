@@ -6,3 +6,7 @@ Team Member: Jacob Buckelew, Yunuo Zhang
 update: \
 intermediate report directory updated \
 project_model.mdl is our current simulink model
+
+
+Update: \
+Go to Final Project Directory for final submission
