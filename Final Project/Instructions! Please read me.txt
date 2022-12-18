@@ -1,0 +1,29 @@
+To open the model:
+1. locate "AutonomousEmergencyBraking" Directory
+2. go to the "AutonomousEmergencyBraking" subdirectory
+3. go to the "TestBench" subdirectory
+4. open "AEBTestBench.slx" model on simulink
+
+
+There are a list of drivingScenarios available in Matlab:
+scenario_01_AEB_Bicyclist_Longitudinal_25width,
+scenario_02_AEB_Bicyclist_Longitudinal_50width,
+scenario_03_AEB_Bicyclist_Longitudinal_75width,
+scenario_08_AEB_CCRm_50overlap,
+scenario_20_AEB_Pedestrian_Longitudinal_50width,
+scenario_23_AEB_PedestrianChild_Nearside_50width,
+scenario_24_AEB_PedestrianTurning_Farside_10kph,
+scenario_25_AEB_PedestrianTurning_Nearside_10kph,
+etc.
+
+To run the model:
+1. Click "Run Setup Script" Button
+2. click run on Simulink to run the model
+3. to change the drving scneraio:
+run "helperSLAEBSetup(scenarioFcnName="scenario_23_AEB_PedestrianChild_Nearside_50width")"
+(replace  "scenario_23_AEB_PedestrianChild_Nearside_50width" with other drivingScenarios objects availabile on the list above)
+
+To see the results:
+To see the simulation scenarios, click Bird's Eye Scope
+To see that it always satisfies the safety verification, click on is_collison scope
+To see the plotted result that compares TTC with stopping time, run "helperPlotAEBResults(logsout,scenarioFcnName)"

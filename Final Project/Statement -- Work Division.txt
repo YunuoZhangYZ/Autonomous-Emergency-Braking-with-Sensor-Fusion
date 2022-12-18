@@ -1,0 +1,17 @@
+The final project -- Advanced Emergency Braking with Sensor Fusion technique is contributed by Yunuo Zhang and Jacob Buckelew.
+
+Yunuo: 
+For project report, contribute on Sections: Modeling AEB Controller, Modeling Sensors and Environments, Safety Verification, Simulations and Verification. 
+
+Implement the AEB model on Simulink based on provided example in Matlab documentation, (we modified the model by adding safety monitor, and we also modified the model 
+	to apply to different driving Scenarios and truncate original useless helper functions)
+
+plot the results and analysis the results
+record the video demo
+Github instructions and requirements to run the model
+
+
+
+
+Jacob:
+Literature Review and References, Introduction and Background, and Editing/Formatting the report
